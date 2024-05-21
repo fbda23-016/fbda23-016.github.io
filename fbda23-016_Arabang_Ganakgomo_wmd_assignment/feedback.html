@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+      <link rel="stylesheet" type="text/css" href="style.css"/> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: darkgrey;
+            padding: 20px;
+        }
+        .feedback-form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+        }
+        .form-group input[type="text"],
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .form-group textarea {
+            resize: vertical;
+        }
+        .form-group button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+     <header>
+
+    <h1>Warnerbros</h1>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li><li>
+        <a href="movies.html">Movies</a></li>
+        <li><a href="tvshows.html">TV & Shows</a></li>
+        <li><a href="games.html">Games & Apps</a></li>
+        <li><a href="collection.html">Collection</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+     <form action="#">
+    <input type="text" placeholder="Search...">
+    <button type="submit"><i class="fas fa-search"></i></button>
+     </form>
+    </div>
+
+  </header>
+
+
+    <div class="feedback-form">
+        <h2>Feedback Form</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <div class="form-group">
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit Feedback</button>
+            </div>
+        </form>
+    </div>
+<footer>
+    <p>Created by D.Dutche
+     +27676868698
+      ddutche@gmail.com</p>
+  </footer>
+
+</body>
+</html>

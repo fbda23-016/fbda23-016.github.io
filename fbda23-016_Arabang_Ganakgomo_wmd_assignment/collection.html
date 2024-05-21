@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warnerbros</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/> 
+  <style>
+        .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.gallery-button {
+    background-color: #0074D9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.gallery-button:hover {
+    background-color: #0056b3;
+}
+   </style>
+</head>
+<body>
+  <header>
+
+    <h1>Warnerbros</h1>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li><li>
+        <a href="movies.html">Movies</a></li>
+        <li><a href="shows.html">TV & Shows</a></li>
+        <li><a href="games.html">Games & Apps</a></li>
+        <li><a href="collection.html">Collection</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+  <form action="#">
+    <input type="text" placeholder="Search...">
+    <button type="submit"><i class="fas fa-search"></i></button>
+  </form>
+</div>
+
+  </header>
+
+  <main> 
+  
+        <div class="image-container">
+        <img src="mmovies.jpg" alt="More movies">
+        <img src="tvshows.jpg" alt="Forest">
+        <img src="anime.jpg" alt="Mountains">
+        <button class="gallery-button">More Movies</button>
+        <button class="gallery-button">More TV Shows</button>
+        <button class="gallery-button">More animation</button>
+    </div>
+   
+  </main>
+
+  <footer>
+    <p>Created by D.Dutche
+     +27676868698
+      ddutche@gmail.com</p>
+  </footer>
+</body>
+</html>

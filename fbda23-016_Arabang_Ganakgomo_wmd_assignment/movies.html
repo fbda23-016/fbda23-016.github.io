@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warnerbros</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>  
+    <style>
+  
+
+
+        .image-row {
+    display: flex;
+    justify-content: space-between; /* Distribute images evenly */
+    align-items: center; /* Vertically center images */
+}
+
+/* Style for each image column */
+.image-column {
+    flex: 1; /* Equal width for all columns */
+    padding: 10px; /* Add spacing between images */
+}
+         
+       h1, h2, h3, h4, h5, h6 {
+          font-size: 24px; 
+         }
+       * {
+          box-sizing: border-box;
+          }
+       </style>
+ </head>
+<body>
+  <header>
+
+    <h1>Warnerbros</h1>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li><li>
+        <a href="movies.html">Movies</a></li>
+        <li><a href="tvshows.html">TV & Shows</a></li>
+        <li><a href="games.html">Games & Apps</a></li>
+        <li><a href="collection.html">Collection</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+     <form action="#">
+    <input type="text" placeholder="Search...">
+    <button type="submit"><i class="fas fa-search"></i></button>
+     </form>
+    </div>
+
+  </header>
+
+  <main> 
+       <h2>Top Rated</h2>
+     <div class="row">
+       <div class="column">
+             <h3>The Shawhank Redemption</h3>
+               <img src="shawhank.jpg"alt="Shawhank" style="width:100%">
+       </div>
+         <div class="column">
+                 <h4>The Godfather</h4> 
+              <img src="Godfather.jpg" alt="Godfather" style="width:100%">
+        </div>
+          <div class="column">
+             <h5>12 Angry Men</h5>
+             <img src="angry men.jfif" alt="Darknight" style="width:100%">
+          </div>   
+       </div>
+
+   </main>
+
+  <footer>
+    <p>Created by D.Dutche
+     +27676868698
+      ddutche@gmail.com</p>
+  </footer>
+</body>
+</html>
